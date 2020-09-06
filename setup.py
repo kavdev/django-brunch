@@ -14,7 +14,7 @@ the Django server reloads, but it will die when you shut down the Django server.
 `Full Documentation on GitHub <https://github.com/nshafer/django-brunch>`_
 """
 
-VERSION = '1.0.4'
+VERSION = '1.1.0'
 
 if sys.argv[-1] == 'publish':
     os.system('python setup.py bdist_wheel sdist')
